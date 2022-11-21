@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edittext"
+        android:layout_width="287dp"
+        android:layout_height="73dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="544dp"
+        android:background="@color/white"
+        android:ems="10"
+        android:hint="Enter Number"
+        android:inputType="textPersonName"
+        android:textColor="@color/purple_700"
+        android:textSize="90px" />
+
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="339dp"
+        android:layout_marginBottom="542dp"
+        android:text="91"
+        android:textSize="90px" />
+
+    <EditText android:id="@+id/edittext1"
+        android:layout_width="362dp"
+        android:layout_height="68dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="465dp"
+        android:ems="10" android:inputType="textPersonName"
+        android:textColor="@color/purple_700"
+        android:textSize="90px"
+        android:hint="Enter Message"
+        android:background="@color/white"
+        tools:ignore="InvalidId"/>
+    <Button android:id="@+id/button" android:background="@color/black" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" android:layout_marginEnd="175dp"
+        android:layout_marginBottom="358dp" android:text="SEND"
+        android:onClick="click"/>
+
+
+
+</RelativeLayout>

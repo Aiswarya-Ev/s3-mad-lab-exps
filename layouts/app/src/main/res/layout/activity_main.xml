@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/imagefile">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="632dp"
+        android:text="Type of Layouts"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="60px"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300px">
+
+        <RadioButton
+            android:id="@+id/r1"
+            android:onClick="click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Relative Layout"
+            android:textColor="@color/teal_200"
+            android:textSize="60px" />
+
+        <RadioButton
+            android:id="@+id/r2"
+            android:onClick="click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:text="Linear Layout"
+            android:textColor="@color/teal_200"
+            android:textSize="60px" />
+
+        <RadioButton
+            android:id="@+id/r3"
+            android:onClick="click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grid Layout"
+            android:textColor="@color/teal_200"
+            android:textSize="60px" />
+
+        <RadioButton
+            android:id="@+id/r4"
+            android:onClick="click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Table Layout"
+            android:textColor="@color/teal_200"
+            android:textSize="60px" />
+
+        <RadioButton
+            android:id="@+id/r5"
+            android:onClick="click"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Frame Layout"
+            android:textColor="@color/teal_200"
+            android:textSize="60px" />
+    </RadioGroup>
+
+</RelativeLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">preference</string>
+    <string name="result_correct">correct</string>
+    <string name="result_wrong">wrong</string>
+</resources>
