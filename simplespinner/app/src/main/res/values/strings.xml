@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">simplespinner</string>
+    <string-array name="numbers">
+        <item>thrissur</item>
+        <item>hi</item>
+        <item>ok</item>
+    </string-array>
+</resources>
